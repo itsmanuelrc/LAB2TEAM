@@ -11,6 +11,26 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<style>
+		.bloque{
+			display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+		}
+		.bloque article{
+			flex-wrap: wrap;
+			width: 50%;
+		}
+
+		.menu-minimal ul{
+			list-style-type: none;
+			margin: 1rem 0;
+		}
+		.menu-minimal a{
+			font-size: 1.1rem;
+			color: white;
+		}
+	</style>
 </head>
 
 <body class="is-preload">
@@ -22,6 +42,15 @@
 			<h3>Grupo 02 - Laboratorio de Innovación 2</h3>
 			<h1>En nuestra bitácora de trabajo podrás conocernos un poco más, y también aprender sobre nuestro proyecto.
 			</h1>
+			<nav class="menu-minimal">
+				<ul>
+					<li><a href="#two">Equipo</a></li>
+					<li><a href="#three">Ideas</a></li>
+					<li><a href="#four">GeoPuzzle</a></li>
+					<li><a href="#five">Componentes</a></li>
+					<li><a href="#six">Flujo</a></li>
+				</ul>
+			</nav>
 		</div>
 	</header>
 
@@ -123,16 +152,99 @@
 			<h2>Idea ganadora</h2>
 			<p>GeoPuzzle</p>
 			
-			
-
-			<div><span class="image left"><img src="images/puzzle.jpg" width="30" alt="" /></span></div>
-			<div class="right">
-				<h5>Rompecabezas impresos en 3D con formas de países</h5>
-				<h5>Se prende luces LED al hacer contacto entre las piezas </h5>
-				<h5>Datos sobre los países al reverso de la pieza</h5>
-				<h5>Código a escanear para experiencia de realidad aumentada</h5>
+			<div class="bloque">
+				<div><span class="image left"><img src="images/puzzle.jpg" width="30" alt="" /></span></div>
+				<div class="right">
+					<h5>Rompecabezas impresos en 3D con formas de países</h5>
+					<h5>Se prende luces LED al hacer contacto entre las piezas </h5>
+					<h5>Datos sobre los países al reverso de la pieza</h5>
+					<h5>Código a escanear para experiencia de realidad aumentada</h5>
+				</div>
 			</div>
 
+			
+
+		</section>
+
+		<section id="five">
+			<h2>Componentes Electrónicos</h2>
+			<div class="bloque">
+				<article>
+					<div class="image left">
+						<img src="images/piezas/arduino.png" width="10" alt="" />
+					</div>
+					<div class="right">
+					<h4>Placa Arduino Nano</h4>
+					<p>Controlador</p>
+					</div>
+					
+				</article>
+				<article>
+					<div class="image left">
+						<img src="images/piezas/cable.png" width="10" alt="" />
+					</div>
+					<div class="right">
+					<h4>Cable puente</h4>
+					<p>Componente</p>
+					</div>
+				</article>
+				<article>
+					<div class="image left">
+						<img src="images/piezas/resistencia.png" width="10" alt="" />
+					</div>
+					<div class="right">
+					<h4>Resistencia</h4>
+					<p>Componente</p>
+					</div>
+				</article>
+				<article>
+					<div class="image left">
+						<img src="images/piezas/bateria.png" width="10" alt="" />
+					</div>
+					<div class="right">
+					<h4>Batería</h4>
+					<p>Componente</p>
+					</div>
+				</article>
+				<article>
+					<div class="image left">
+						<img src="images/piezas/pulsador.png" width="10" alt="" />
+					</div>
+					<div class="right">
+					<h4>Pulsador táctil SMD 6x6xmm</h4>
+					<p>Sensor</p>
+					</div>
+				</article>
+
+				<article>
+					<div class="image left">
+						<img src="images/piezas/buzzer.png" width="10" alt="" />
+					</div>
+					<div class="right">
+					<h4>Buzzer</h4>
+					<p>Actuador</p>
+					</div>
+				</article>
+				<article>
+					<div class="image left">
+						<img src="images/piezas/leds.png" width="10" alt="" />
+					</div>
+					<div class="right">
+					<h4>Focos Led</h4>
+					<p>Actuador</p>
+					</div>
+				</article>
+			</div>
+			
+
+
+		</section>
+
+		<section id="six">
+			<h2>Flujo</h2>
+			<div class="image center">
+				<img src="images/piezas/flujo.png" width="50%" alt="" />
+			</div>
 		</section>
 
 		<br>
@@ -141,7 +253,6 @@
 		<br>
 		<br>
 
-		</section>
 
 
 	</div>
